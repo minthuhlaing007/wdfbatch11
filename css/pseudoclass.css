@@ -1,0 +1,48 @@
+/* Pseudo Class(:) */
+
+.div1{
+  width: 300px;
+  height: 300px;
+  background-color: greenyellow;
+}
+
+/* .div1:first-child{
+  background-color: blue;
+  color: white;
+}
+
+.div1:last-child{
+  background-color: red;
+  color: white;
+} */
+
+
+/* first of type ka hr char htr tat css example */
+
+/* .div1:first-of-type{
+  background-color: blueviolet;
+  color: orange;
+}
+
+.div1:last-of-type{
+  background-color: brown;
+  color: yellow;
+} */
+
+
+.div1:nth-child(odd){
+  background-color:pink;
+  color: #fff;
+}
+
+/* .div1:nth-child(even){
+  background-color: orange;
+  color: #fff;
+} */
+/* .div1:nth-of-type(odd){
+  background-color: blue;
+  color: #fff;
+} */
+
+
+/* 29TH */

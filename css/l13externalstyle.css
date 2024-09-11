@@ -1,0 +1,38 @@
+/*Single Selector*/
+/*Element Selector*/
+h2 {
+  color: gray;
+}
+
+/*Group Selector(,)*/
+
+h3,
+h4,
+h5 {
+  color: steelblue;
+  font-size: 25px;
+}
+
+/*ID Selector*/
+#myself {
+  color: green;
+}
+
+#mya,
+#honey,
+#thi {
+  color: blue;
+  font-size: 20px;
+}
+
+/*Class Selector*/
+
+.phone {
+  color: red;
+}
+.fontlg {
+  font-size: 25px;
+}
+.fontfam {
+  font-family: monospace;
+}

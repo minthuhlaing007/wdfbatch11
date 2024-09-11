@@ -1,0 +1,20 @@
+.circle1,.circle2,.circle3,.circle4,.circle5{
+	width: 200px;
+	height: 200px;
+	background:green;
+	border-radius: 50%;
+}
+.circle1{
+	background: conic-gradient(green,darkred,yellow,blue);
+}
+.circle2{
+	background-image: conic-gradient(#343131,#A04747,#D8A25E,#EEDF7A);
+}
+
+.circle3{
+	background: conic-gradient(hsla(325, 100%, 35%, 1),hsla(94, 94%, 35%, 0.67),hsla(268, 94%, 35%, 0.67),hsla(12, 94%, 35%, 0.67));
+}
+.circle4{
+	background: linear-gradient(45deg,hsla(325, 100%, 35%, 1),hsla(94, 94%, 35%, 0.67),hsla(268, 94%, 35%, 0.67),hsla(12, 94%, 35%, 0.67));
+} /* linear gradient mar bae deg pay loa ya tal */
+

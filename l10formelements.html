@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Form Element</title>
+  </head>
+  <body>
+    <h3>Form Elements</h3>
+    <fieldset>
+      <legend>This is your form</legend>
+      <form action="db.php" method="POST" enctype="multipart/form-data">
+        <!-- input type mar file loa par tar nae enctype par ko par ka mal -->
+        <label for="firstname">First Name</label>
+        <input
+          type="text"
+          name="firstname"
+          id="firstname"
+          class=""
+          maxlength="5"
+          minlength="3"
+          placeholder="Enter your First Name"
+          autocomplete="off"
+          autofocus
+        />
+        <br />
+        <br />
+        <label for="lastname">Last Name</label>
+        <input
+          type="text"
+          name="lastname"
+          id="lastname"
+          class=""
+          placeholder="Enter your Last Name"
+          autocomplete="on"
+          disabled
+        />
+        <br /><br />
+
+        <label for="middlename">Middle Name</label>
+        <input
+          type="text"
+          name="middlename"
+          id="middlename"
+          class=""
+          value="Maung"
+          readonly
+        />
+        <br /><br />
+        <label for="age">Age</label>
+        <input
+          type="number"
+          name="age"
+          id="age"
+          class=""
+          min="20"
+          max="60"
+          placeholder="Enter your Age"
+        />
+        <br /><br />
+        <label for="password">Password</label>
+        <input
+          type="password"
+          name="password"
+          id="password"
+          class=""
+          placeholder="Enter your Password"
+          required
+        />
+        <br />
+        <br />
+        <label>Gender</label>
+        <input
+          type="radio"
+          name="gender"
+          id="genderm"
+          class=""
+          value="1"
+          checked
+        />
+        <label for="genderm">Male</label>
+        <input type="radio" name="gender" id="genderf" class="" value="0" />
+        <label for="genderf">Female</label>
+        <input type="radio" name="gender" id="gender0" class="" value="2" />
+        <label for="gender0">Other</label>
+
+        <br />
+        <br />
+
+        <label>Choose your fav colors</label>
+        <input type="checkbox" name="favcolor" id="favrd" class="" value="0" />
+        <label for="favrd">Red</label>
+        <input type="checkbox" name="favcolor" id="favbl" class="" value="1" />
+        <label for="favbl">Blue</label>
+        <input
+          type="checkbox"
+          name="favcolor"
+          id="favgr"
+          class=""
+          value="2"
+          checked
+        />
+        <label for="favgr">Green</label>
+        <input
+          type="checkbox"
+          name="favcolor"
+          id="favwh"
+          class=""
+          value="3"
+          checked
+        />
+        <label for="favwh">White</label>
+
+        <br />
+        <br />
+        <label>Fruits</label>
+        <input type="radio" name="fruit" id="fruitap" class="" value="fruap" />
+        <label for="fruitap">Apple</label>
+        <input type="radio" name="fruit" id="fruitog" class="" value="fruog" />
+        <label for="fruitog">Orange</label>
+        <input type="radio" name="fruit" id="fruitmg" class="" value="frumg" />
+        <label for="fruitmg">Mango</label>
+
+        <br />
+        <br />
+
+        <label for="country">Citizen</label>
+
+        <select name="country" id="country" class="">
+          <option selected disabled>Choose a country</option>
+          <option value="mm">Myanmar</option>
+          <option value="thi">Thiland</option>
+          <option value="php">Philippine</option>
+          <option value="slk">Srilanka</option>
+          <option value="sg">Singapore</option>
+        </select>
+        <br /><br />
+
+        <label for="role">Role</label>
+        <select name="role[]" id="role" class="" multiple>
+          <option value="1">Manager</option>
+          <option value="2">Editor</option>
+          <option value="3">Supervisor</option>
+          <option value="4">Sales</option>
+        </select>
+        <br />
+        <br />
+
+        <label for="dob">Date of Birth</label>
+        <input type="date" name="dob" id="dob" class="" />
+
+        <br /><br />
+
+        <label for="bookingtime">Booking Time</label>
+        <input type="time" name="bookingtime" id="bookingtime" class="" />
+
+        <br /><br />
+
+        <label for="appointment"> Appointment </label>
+        <input
+          type="datetime-local"
+          name="appointment"
+          id="appointment"
+          class=""
+        />
+
+        <br />
+        <br />
+
+        <label for="volume">Volume</label>
+        <input
+          type="range"
+          name="volume"
+          id="volume"
+          min="0"
+          max="100"
+          value="0"
+          step="10"
+          class=""
+        />
+        <!-- step 10 so yin ta khar khone yin 10 phit twar tar  -->
+
+        <br /><br />
+
+        <label for="nrc">NRC</label>
+        <input
+          type="file"
+          name="nrc"
+          id="nrc"
+          class=""
+          accept="image/*"
+          multiple
+        />
+
+        <br /><br />
+
+        <label for="vdo">Video</label>
+        <input
+          type="file"
+          name="vdo"
+          id="vdo"
+          accept="video/*"
+          capture="environment"
+          multiple
+        />
+
+        <br /><br />
+        <label for="email">Email</label>
+        <input
+          type="email"
+          name="email"
+          id="email"
+          class=""
+          placeholder="Enter your email"
+        />
+
+        <br /><br />
+
+        <label for="bio">Bio</label>
+        <br />
+        <textarea
+          name="bio"
+          id="bio"
+          class=""
+          rows="10"
+          spellcheck="false"
+          placeholder="Enter your bio"
+        ></textarea>
+        <!-- textarea kyr mar space ma par tint buu bar loa lae so top thu value ka kyr mar shi nay loa -->
+
+        <br />
+        <input type="hidden" name="lat" id="lat" class="" /> <br />
+        <input type="time" name="test" id="test" class="" hidden />
+
+        <br />
+        <br />
+        <input type="reset" name="cancels" id="cancels" value="Cancel" />
+
+        <input type="button" name="login" id="login" class="" value="Login" />
+
+        <input
+          type="submit"
+          name="signups"
+          id="signups"
+          class=""
+          value="Sign Up"
+        />
+
+        <!-- type reset ka clear lote pay tar button ka kya top ko pay chin tar pay chin yin tone tal pee top submit ka kya top database ko poh chin yin tone tar -->
+
+        <button type="reset" name="cancel" id="cancel" class="">Cancel</button>
+
+        <button type="button" name="register" id="register" class="">
+          Register
+        </button>
+
+        <button type="submit" name="signup" id="signup" class="">
+          sign up
+        </button>
+      </form>
+    </fieldset>
+
+    <!-- input type htae ka name attribute ka database column name ko pay ka tar (php developer) -->
+    <!-- input type htae ka id attribute ka database column name ko pay ka tar (javascript developer) -->
+
+    <!-- label ka for attribute ka input type ka id nae chate tal -->
+    <!-- autofocus ka cursor auto cha htr tar -->
+    <!-- value 2 loa pay tr ka database mar bit myr mar soe loa  -->
+    <!-- html mar keyboard ka yite htae loa ya tat har so value ma lol buu -->
+    <!-- multiple pay chin yin name bay mar [] pay ka tal -->
+
+    <!-- Attendent form: 8FM -->
+  </body>
+</html>
+
+<!-- 
+Tag
+Self Closing Tag
+Elements
+
+Attributes
+Stand Alone Attributes
+
+selected
+disabled
+required
+readonly
+checked
+multiple
+hidden
+autofocus 
+-->

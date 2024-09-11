@@ -1,0 +1,44 @@
+.textalign {
+  /*	text-align: left;*/
+  /*	text-align: right;*/
+  /*	text-align: center;*/
+  text-align: justify; /* lone wa a nyii nyi tar */
+}
+
+.textdecoration {
+  /*	text-decoration: underline;*/
+  /*	text-decoration: line-through;*/
+  text-decoration: overline;
+}
+
+.google {
+  text-decoration: none;
+}
+
+.textline {
+  letter-spacing: 3px;
+  /*	line-height: 30px;*/
+  /*	line-height: 3;*/ /* sar 3 chaung sar char tr */
+  line-height: 200%;
+}
+
+.textshadow {
+  /*	short hand*/
+  /*	h v b c*/
+  /*	hoz vtl blur color*/
+
+  /*	text-shadow: 50px 0 3px silver;*/
+  /*	text-shadow: -50px 0 3px dimgray;*/
+
+  /*	text-shadow: 0px 5px 3px green;*/
+  /*	text-shadow: 0px -5px 3px green;*/
+
+  /*	text-shadow: 5px 5px 3px blue;*/
+  /*	text-shadow: -5px -5px 3px blue;*/
+
+  /*	text-shadow: 5px 0 3px red, 0 5px 3px blue , 0 -5px 3px gold, -5px 0 3px green;*/
+
+  /*	color ko rgba, hex, hsla lae pay loa ya par tal */
+
+  text-shadow: -5px -5px 5px hsla(351, 100%, 50%, 1);
+}

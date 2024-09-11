@@ -1,0 +1,130 @@
+/* Tag to Tag */
+
+/* div span {
+  color: #ffff;
+  background: gray;
+} */
+
+/* Multi tag to tag */
+
+/* div span p{
+  color: rgb(249, 76, 214);
+} */
+
+/* Tag to Class */
+/* div .address{
+  color: red;
+} */
+
+/* multi tags to class */
+div span .address {
+  color: red;
+}
+
+/* Multi Tags to same Class */
+
+div span small.name {
+  color: red;
+}
+
+/* Class to Class */
+/* .bank .money{
+  color: red;
+} */
+
+/* .money .currency{
+  color: blue;
+} */
+
+/* .bank .currency{
+  color: green;
+} */
+
+/* Multi Class to Class */
+
+.bank .money .currency {
+  color: gold;
+}
+
+/* Class to Tag */
+
+.container b {
+  color: goldenrod;
+}
+
+/* Class to Multi Tags */
+
+.container b span{
+  color: blueviolet;
+}
+
+
+/* Same class */
+
+.mobile.jpn{
+  color: red;
+}
+.mobile.cn{
+  color: yellow;
+}
+.mobile.indo{
+  color: green;
+}
+.mobile.us{
+  color: skyblue;
+}
+
+/* Class to same class */
+
+.vehicle .car.jpn{
+  color: blue;
+}
+.vehicle .car.cn{
+  color: rgb(51, 243, 26);
+}
+.vehicle .car.indo{
+  color: rgb(226, 169, 23);
+}
+.vehicle .car.us{
+  color: rgb(136, 10, 147);
+}
+
+
+/* Class to Tag with Group Selector */
+
+.div1 p , .div1 b{
+  color: rgb(252, 26, 26);
+}
+
+
+/* Child selector */
+
+/* .div2 > p{
+  color: red;
+}
+
+.div3 > i{
+  color: green;
+}
+
+.div2 > b{
+  color: gray;
+}
+
+.div2 > .div3{
+  color: silver;
+} */
+
+/* 28CH */
+
+/* (i) General Sibling Selector(~) */
+
+/* .div4 ~ p{
+  color: red;
+} */
+
+/* (ii) Adjacent Sibling Selector(+) kat yat element bae linn mal */
+
+.div9 + b{
+  color: blue;
+}

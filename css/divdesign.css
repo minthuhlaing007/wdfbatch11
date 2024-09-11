@@ -1,0 +1,60 @@
+.firstDiv {
+  width: 200px;
+  height: 200px;
+
+  /*	background-color: green;*/
+  /*	background-color: #5c1712;*/
+  /*	background-color: rgba(245, 40, 145, 0.8);*/
+  background-color: hsla(0, 100%, 50%, 1);
+}
+
+.secondDiv {
+  width: 400px;
+  height: 400px;
+
+  background: url(./../img/cover/cv1.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+
+  color: red;
+  font-size: 20px;
+  border: 1px solid green;
+}
+
+.thirdDiv {
+  width: 300px;
+  height: 300px;
+
+  /*	background-color: linear-gradient(red,blue,green);*/
+
+  background: linear-gradient(45deg, red, blue, green);
+
+  /*	background-image: linear-gradient(yellow,orange,purple);*/
+
+  color: #ffff;
+  border: 2px solid greenyellow;
+}
+
+.fourthDiv {
+  width: 300px;
+  height: 300px;
+  /*	background-image: url(./../img/cover/cv2.jpg),linear-gradient(red,green);*/
+  /*	background-image: linear-gradient(red,green),url(./../img/cover/cv2.jpg); */
+  background-image: linear-gradient(
+      45deg,
+      rgba(3, 222, 149, 0.24),
+      rgba(170, 191, 16, 0.24)
+    ),
+    url(./../img/cover/cv2.jpg);
+
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 2px solid red;
+}
+/*
+	background-color : color bae ya mal
+	background : image lae ya tal color lae ya tal gradient color lae ya tal 
+	background-image : image lae ya tal gradient color lae ya tal 
+*/
+
+/*21BI*/

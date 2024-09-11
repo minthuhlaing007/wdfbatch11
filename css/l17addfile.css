@@ -1,0 +1,11 @@
+.imgdesign{
+  width: 80px;
+  height: 80px;
+  cursor: pointer;
+  transition: all 1s;
+}
+
+.imgdesign:hover{
+  width: 180px;
+  height: 180px;
+}
